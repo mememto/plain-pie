@@ -184,6 +184,10 @@ public class PieView extends View {
         invalidate();
     }
 
+    public String getInnerText() {
+        return mPercentageTextView.getText().toString();
+    }
+
     /**
      * Determine the thickness of the mPercentage pie bar
      *
