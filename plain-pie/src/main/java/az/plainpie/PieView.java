@@ -229,8 +229,8 @@ public class PieView extends View {
      * @param size any valid float
      */
     @SuppressWarnings("unused")
-    public void setPercentageTextSize(final float size) {
-        mPercentageTextView.setTextSize(size);
+    public void setPercentageTextSize(final int unit, final float size) {
+        mPercentageTextView.setTextSize(unit, size);
         invalidate();
     }
 
